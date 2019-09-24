@@ -2,7 +2,7 @@ import React from "react";
 
 const Rating = props => {
   let stars = [];
-  let number = parseInt(props.num);
+  let number = Math.round(props.num);
   let n = number;
 
   for (let i = 0; i < 5; i++) {
